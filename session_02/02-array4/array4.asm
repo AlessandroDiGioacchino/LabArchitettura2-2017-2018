@@ -18,4 +18,3 @@ main:
 	addi $t1, $zero, 12	# $t1 = 12
 	addi $t0, $t0, 4	# indirizzo di A[3]
 	sw $t1, 0($t0)		# A[3] = 12
-	jr $ra
