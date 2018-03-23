@@ -47,4 +47,5 @@ main:
 	move $a0, $t0		# $a0 = array[1]
 	syscall			# lancio print_int
 
-	jr $ra
+	li $v0, 10		# exit
+	syscall
