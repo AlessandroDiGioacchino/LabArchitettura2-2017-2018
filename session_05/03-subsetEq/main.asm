@@ -10,7 +10,6 @@ s2:	.asciiz "Condizione non soddisfatta"
 
 	.text
 	.globl main
-	.globl subseeq
 
 main:
 	# push sullo stack di $ra
@@ -44,4 +43,6 @@ unsat:
 end:
 	lw $ra, 0($sp)
 	add $sp, $sp, 4
-	jr $ra
+	
+	li $v0, 10
+	syscall
