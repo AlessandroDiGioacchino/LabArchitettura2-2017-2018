@@ -8,7 +8,6 @@
 
 	.text
 	.globl subseteq
-	.globl belongs
 
 subseteq:
 	sub $sp, $sp, 20
