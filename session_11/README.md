@@ -8,7 +8,7 @@ sudo apt-get install -y qemu qemu-kvm libvirt-bin
 Informazioni più dettagliate, incluse le istruzioni per più sistemi operativi, sono disponibili a [questo link](https://en.wikibooks.org/wiki/QEMU/Installing_QEMU).
 
 ## Configurazione e avvio
-Scaricare l'archivio zip a [questo link](http://159.149.138.48/files/debian-mips.tar.gz) e scompattarlo in una directory locale. L'archivio contiene:
+Scaricare l'archivio zip a [questo link](https://gvm.aislab.di.unimi.it/index.php/s/4Z1nPWMJBQgId0K) e scompattarlo in una directory locale. L'archivio contiene:
 
 - un'immagine del kernel `vmlinux-3.2.0-4-4kc-malta`;
 - un'immagine per il disco virtuale `debian_wheezy_mips_standard.qcow2`.
